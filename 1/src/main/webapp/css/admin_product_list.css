@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+p {
+	color: #444444;
+	margin: 15px 110px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.product_seach {
+	margin: 0 100px;
+	padding: 0 20px;
+	padding-top: 5px;
+	box-shadow: 0.5px 0.5px 10px #c8c8c8;
+	box-shadow: -0.5px -0.5px 10px #d4d4d4;
+	border-radius:20px;
+	height: 280px;
+}
+
+.product_seach > .search_requirement {
+	color: #a1a1a1;
+	font-weight: bold;
+	margin: 8px 6px;
+}
+
+.product_seach > .cell {
+	font-size:13px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	vertical-align: middle;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.product_seach > .cell2 {
+	display: flex;
+	justify-content: center;
+}
+
+.start_date, .end_date {
+	text-align: center;
+	padding-left: 6px;
+	margin-right: 50px;
+	border: 2px solid #a0a0a0;
+	border-radius: 5px;
+	
+}
+
+#req_subject {
+	margin-right: 70px;
+}
+
+.start_date > input, .end_date > input {
+	padding: 6px 50px;
+	margin-left: 5px;
+	border-color: #ffffff;
+	border-radius: 4px;
+}
+
+.type_select {
+	padding: 3px 10px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.search_input {
+	width: 678px;
+	font-size: 16px;
+	padding: 4px 10px;
+	margin-left: 10px;
+	border: 2px solid #a0a0a0;
+	border-radius: 5px;
+}
+
+.search_submit {
+	padding: 3px 10px;
+	letter-spacing: 2px;
+	margin-top: 20px;
+}
+
+
